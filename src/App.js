@@ -6,12 +6,12 @@ function App() {
   return (
     <div className="App">
       <ColoredUserPic
-        src={Avatar} //done
-        size={150} //done
+        src={Avatar}
+        size={150}
         margin={4}
-        backgroundColor="red" //done
+        backgroundColor="red"
         colors={["green", "blue"]}
-        hoverColors={["blue", "green"]} //d
+        hoverColors={["blue", "green"]}
         colorWidth={6}
       />
     </div>
